@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yamini S Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(to right, #0f172a, #1e293b);
+            color: white;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background: #020617;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin: 0;
+            color: #38bdf8;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background: #1e293b;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px;
+            text-align: center;
+        }
+
+        .card {
+            background: #020617;
+            padding: 25px;
+            margin: 20px auto;
+            width: 70%;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #38bdf8;
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        .btn {
+            background: #38bdf8;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Yamini S</h1>
+    <p>MBA Finance Student</p>
+    <button class="btn" onclick="alert('Welcome to my portfolio!')">Explore</button>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>Motivated MBA Finance student skilled in financial reporting, budgeting, and data analysis using Excel and Tableau.</p>
+    </div>
+</section>
+
+<section id="education">
+    <div class="card">
+        <h2>Education</h2>
+        <p>MBA (Finance) – SRM University</p>
+        <p>B.Com – Bhaktavatsalam College</p>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="card">
+        <h2>Experience</h2>
+        <p>Finance Intern – Srinivas Industries</p>
+        <p>✔ Financial Reporting</p>
+        <p>✔ Accounts Management</p>
+        <p>✔ Variance Analysis</p>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+        <p>Finance | Budgeting | Excel | Tableau</p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: yaminis112003@gmail.com</p>
+        <p>Phone: +91 9342607576</p>
+        <button class="btn" onclick="alert('Thanks for contacting!')">Say Hi 👋</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Yamini Portfolio</p>
+</footer>
+
+</body>
+</html>
